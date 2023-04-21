@@ -10,17 +10,13 @@
 
 int main(void)
 {
-	int digit = 0;
+	int n;
 
-	while (digit <= 9)
+	for (n = 48; n <= 57; n++)
 	{
-		putchar(digit + 48);
-		if (digit != 9)
-		{
-			putchar('.');
-			putchar(' ');
-		}
-		digit++;
+		putchar(n);
+		putchar('.');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
