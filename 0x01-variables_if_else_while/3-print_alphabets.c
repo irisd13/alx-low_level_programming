@@ -6,7 +6,7 @@
  * Description: print the value of n status:
  *      greater than, is zero and is not less then 6
  *
- * Return: 0 (seccess)
+ * Return: Always  0 (seccess)
 */
 
 int main(void)
@@ -19,8 +19,8 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	/*print A - z*/
-	while (CH <= 'z')
+	/*print A - Z*/
+	while (CH <= 'Z')
 	{
 		putchar(CH);
 		CH++;
