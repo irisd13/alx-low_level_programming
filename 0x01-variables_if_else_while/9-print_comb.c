@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print 0, 1, - 9
+ * Description: print comb of numbers
  *
  * Return: Always 0 (Success)
 */
