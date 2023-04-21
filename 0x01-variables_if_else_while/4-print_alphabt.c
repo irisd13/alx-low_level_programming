@@ -3,10 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: print the value of n status:
- *      greater than, is zero and is not less then 6
+ * Description: print all alphabet letters except q and e
  *
- * Return: Always  0 (seccess)
+ * Return: Always  0 (Success)
 */
 
 int main(void)
@@ -16,9 +15,9 @@ int main(void)
 	while (CH <= 'Z')
 	{
 		if (ch == 'e' || ch == 'q')
-			ch++
-		putchar(CH);
-		CH++;
+			ch++;
+		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 	return (0);
