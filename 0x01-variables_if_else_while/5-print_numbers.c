@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
  * main - Entry point
@@ -18,5 +18,6 @@ int main(void)
 		digit++;
 	}
 	printif("\n");
+
 	return (0);
 }
