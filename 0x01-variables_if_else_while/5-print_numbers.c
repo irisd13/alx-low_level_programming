@@ -5,7 +5,7 @@
  *
  * Description: print all single digit numbers
  *
- * Return: Always  0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
@@ -17,6 +17,6 @@ int main(void)
 		printif("%i", digit);
 		digit++;
 	}
-	printif('\n');
+	printif("\n");
 	return (0);
 }
