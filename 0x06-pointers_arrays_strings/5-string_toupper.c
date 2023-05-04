@@ -1,27 +1,20 @@
 #include "main.h"
 /**
- * _strncpy - copy a string
- * @dest: input value
- * @src: input value
- * @n: input value
+ * string_toupper - change all lowercase to uppercase
+ * @n: pointer
  *
- * Return: dest
+ * Return: n
  */
-char *_strncpy(char *dest, char *src, int n)
+char *string_toupper(char *n)
 {
-	int j;
+	int i;
 
-	j = 0;
-	while (j < n && src[j] != '\0')
+	i = 0;
+	while (n[i] != '\0')
 	{
-		dest[j] = src[j];
-		j++;
+		if (n[i] >= 'a' && n[i] <= 'z')
+			n[i] = n[i] - 32;
+		i++;
 	}
-	while (j < n)
-	{
-		dest[j] = '\0';
-		j++;
-	}
-
-	return (dest);
+	return (n);
 }
